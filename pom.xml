@@ -80,11 +80,11 @@
   </dependencyManagement>
 
   <distributionManagement>
-    <repository>
-      <id>org.cybergarage</id>
-      <name>Cyber Garage Maven Repository</name>
-      <url>file:///var/www/maven/repo/</url>
-    </repository>
+      <repository>
+          <id>github</id>
+          <name>GitHub [mylhyz] Apache Maven Packages</name>
+          <url>https://maven.pkg.github.com/mylhyz/cybergarage-upnp</url>
+      </repository>
   </distributionManagement>
 
   <build>
