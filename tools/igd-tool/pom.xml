@@ -5,14 +5,14 @@
     <artifactId>cybergarage-upnp</artifactId>
     <groupId>org.cybergarage.upnp</groupId>
     <relativePath>../../</relativePath>
-    <version>2.1.1-patch.1</version>
+    <version>2.1.1-patch.2</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.cybergarage.upnp.samples</groupId>
   <artifactId>upnp-igd</artifactId>
   <packaging>jar</packaging>
-  <version>2.1.1-patch.1</version>
+  <version>2.1.1-patch.2</version>
   <name>cybergarage-upnp Internet Gateway Profile Utility</name>
   <description>A sample tool which interact with the UPnP device complaint with the Internet Gateway Profile</description>
   
@@ -35,7 +35,7 @@
     <dependency>
       <groupId>org.cybergarage.upnp</groupId>
       <artifactId>cybergarage-upnp-core</artifactId>
-      <version>2.1.1-patch.1</version>
+      <version>2.1.1-patch.2</version>
     </dependency>
   </dependencies>
 
