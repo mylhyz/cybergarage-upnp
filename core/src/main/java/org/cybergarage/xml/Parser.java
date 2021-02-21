@@ -76,7 +76,7 @@ public abstract class Parser
 			return rootElem;
 			
 		} catch (Exception e) {
-			//throw new ParserException(e);
+			e.printStackTrace();
 		}
 
 		HTTPRequest httpReq = new HTTPRequest();
