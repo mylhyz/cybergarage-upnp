@@ -320,7 +320,7 @@ public class ConnectionManager implements ActionListener, QueryListener
 		if (dmr != null) {
 			ActionListener listener = dmr.getActionListener();
 			if (listener != null)
-				listener.actionControlReceived(action);
+				isActionSuccess = listener.actionControlReceived(action);
 		}
 		
 		return isActionSuccess;

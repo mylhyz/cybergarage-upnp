@@ -764,7 +764,8 @@ public class AVTransport implements ActionListener, QueryListener
 			return false;
 		
 		isActionSuccess = false;
-		
+
+		/*
 		if (actionName.equals(SETAVTRANSPORTURI) == true) {
 			AVTransportInfo avTransInfo = new AVTransportInfo();
 			avTransInfo.setInstanceID(action.getArgument(INSTANCEID).getIntegerValue());
@@ -817,7 +818,7 @@ public class AVTransport implements ActionListener, QueryListener
 			isActionSuccess = true;
 		}
 		
-		/*
+
 		if (actionName.equals(PREPARE_FOR_CONNECTION) == true) {
 			action.getArgument(CONNECTION_ID).setValue(-1);
 			action.getArgument(AV_TRNSPORT_ID).setValue(-1);
@@ -841,7 +842,7 @@ public class AVTransport implements ActionListener, QueryListener
 		if (dmr != null) {
 			ActionListener listener = dmr.getActionListener();
 			if (listener != null)
-				listener.actionControlReceived(action);
+				isActionSuccess = listener.actionControlReceived(action);
 		}
 		
 		return isActionSuccess;
