@@ -40,8 +40,8 @@ public class MediaRenderer extends Device
 		"      <minor>0</minor>\n" +
 		"   </specVersion>\n" +
 		"   <device>\n" +
-		"      <deviceType>urn:schemas-upnp-org:device:MediaRender:1</deviceType>\n" +
-		"      <friendlyName>Cyber Garage Media Render</friendlyName>\n" +
+		"      <deviceType>urn:schemas-upnp-org:device:MediaRenderer:1</deviceType>\n" +
+		"      <friendlyName>Cyber Garage Media Renderer</friendlyName>\n" +
 		"      <manufacturer>Cyber Garage</manufacturer>\n" +
 		"      <manufacturerURL>http://www.cybergarage.org</manufacturerURL>\n" +
 		"      <modelDescription>Provides content through UPnP ContentDirectory service</modelDescription>\n" +
