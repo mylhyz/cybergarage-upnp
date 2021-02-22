@@ -5,14 +5,14 @@
     <artifactId>cybergarage-upnp</artifactId>
     <groupId>org.cybergarage.upnp</groupId>        
     <relativePath>../../</relativePath>
-    <version>2.1.1-patch.2</version>
+    <version>2.1.1-patch.3</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.cybergarage.upnp.samples</groupId>
   <artifactId>light</artifactId>
   <packaging>jar</packaging>
-  <version>2.1.1-patch.2</version>
+  <version>2.1.1-patch.3</version>
   <name>cybergarage-upnp Light Device Sample</name>
   <description>A sample UPnP Light Device implementation</description>
   
@@ -35,7 +35,7 @@
     <dependency>
       <groupId>org.cybergarage.upnp</groupId>
       <artifactId>cybergarage-upnp-core</artifactId>
-      <version>2.1.1-patch.2</version>
+      <version>2.1.1-patch.3</version>
     </dependency>
   </dependencies>
 
